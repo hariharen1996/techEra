@@ -1,0 +1,9 @@
+.header-container {
+  background-color: #f1f5f9;
+  padding: 15px;
+  width: 100%;
+}
+.logo {
+  width: 120px;
+  cursor: pointer;
+}

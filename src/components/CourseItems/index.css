@@ -1,0 +1,43 @@
+.course-items {
+  width: 100%;
+}
+
+.course-lists {
+  list-style: none;
+}
+
+.course-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.course-img {
+  width: 400px;
+  height: 400px;
+}
+
+.course-heading {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.course-description {
+  color: #64748b;
+  font-size: 17px;
+  font-family: 'Roboto';
+  line-height: 1.5;
+}
+
+@media screen and (max-width: 768px) {
+  .course-card {
+    flex-direction: column;
+  }
+  .course-img {
+    width: 250px;
+    height: 250px;
+  }
+}
